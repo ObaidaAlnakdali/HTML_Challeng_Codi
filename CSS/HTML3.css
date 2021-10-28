@@ -141,7 +141,7 @@ form {
     margin: 10px 70px;
 }
 
-input,
+.input,
 textarea {
     width: 100%;
     padding: 10px;
@@ -176,4 +176,13 @@ blockquote a {
 
 blockquote a:hover {
     color: #00e5ff;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+}
+
+.radio * {
+    margin: 10px;
 }
